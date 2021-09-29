@@ -5,6 +5,9 @@
   "author": "",
   "private": true,
   "license": "UNLICENSED",
+  "engines": {
+    "node": "6.11.1"
+  },
   "scripts": {
     "postinstall": "npm run prestart:prod",
     "prebuild": "rimraf dist",
